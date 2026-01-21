@@ -1,77 +1,82 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
   color: #000;
 }
 
 header {
-  background: #5a2d82;
-  color: white;
-  padding: 25px;
+  background: #5b2b82; /* Royal Purple */
+  color: gold;
   text-align: center;
+  padding: 25px;
 }
 
-header h1 {
-  margin: 0;
-  color: #d4af37;
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: 1.2rem;
+header img {
+  height: 90px;
+  display: block;
+  margin: 0 auto 10px;
 }
 
 nav {
-  background: black;
+  background: #000;
   padding: 12px;
   text-align: center;
 }
 
 nav a {
-  color: #d4af37;
+  color: gold;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: white;
+  text-decoration: underline;
 }
 
-section {
+.section-box {
   max-width: 1000px;
   margin: 40px auto;
+  background: #fff;
   padding: 25px;
-}
-
-.white-box {
-  background: white;
-  border: 3px solid #5a2d82;
   border-radius: 12px;
-  padding: 25px;
-  margin-bottom: 40px;
+  border: 3px solid gold;
 }
 
-.gold-title {
-  color: #d4af37;
-  margin-bottom: 15px;
+.section-box h2 {
+  color: #5b2b82;
+  text-align: center;
 }
 
-img {
-  max-width: 100%;
-  border-radius: 12px;
+.media-img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
 }
 
 video {
   width: 100%;
-  border-radius: 12px;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #5b2b82;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
-  background: #5a2d82;
-  color: white;
+  background: #000;
+  color: #fff;
   text-align: center;
   padding: 15px;
+  margin-top: 40px;
 }
-
