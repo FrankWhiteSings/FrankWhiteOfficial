@@ -1,14 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Frank White</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Frank White</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #4B0082; /* royal purple */
+    }
+
+    /* Header */
+    header {
+      background: #4B0082;
+      color: #FFD700; /* gold */
+      padding: 20px;
+      text-align: center;
+      border-bottom: 8px solid #FFD700;
+    }
+
+    header img {
+      height: 80px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      margin: 10px 0;
+      font-size: 2rem;
+      color: #FFD700;
+    }
+
+    header p {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    /* Navigation */
+    nav {
+      background: #FFD700;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 4px solid #4B0082;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4B0082;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section boxes */
+    .section-box {
+      background: #ffffff;
+      border: 3px solid #FFD700; /* gold trim */
+      border-radius: 12px;
+      padding: 25px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .section-box h2 {
+      margin-top: 0;
+      color: #4B0082;
+      border-bottom: 2px solid #FFD700;
+      padding-bottom: 5px;
+    }
+
+    .section-box ul {
+      line-height: 1.8;
+      margin-left: 20px;
+    }
+
+    .section-box p {
+      line-height: 1.6;
+    }
+
+    /* Buttons */
+    .cta-button {
+      background: #4B0082;
+      color: #FFD700;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 10px 10px 0 0;
+    }
+
+    .cta-button:hover {
+      background: #331366;
+    }
+
+    /* Social Media Section */
+    .social-media {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .social-media a {
+      display: inline-block;
+      margin: 0 12px;
+      text-decoration: none;
+      color: #4B0082;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .social-media i {
+      margin-right: 8px;
+      font-size: 20px;
+      vertical-align: middle;
+      color: #FFD700;
+    }
+
+    .social-media a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #4B0082;
+      color: #FFD700;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      border-top: 8px solid #FFD700;
+    }
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
 <header>
-  <img src="images/logo.png">
-  <h1>Frank White</h1>
+  <img src="logo.png" alt="Frank White Logo">
+  <h1>Where The Little Things Matter!</h1>
+  <p>Frank White - Soulful, Heartfelt, Unforgettable</p>
 </header>
 
 <nav>
@@ -18,14 +154,53 @@
   <a href="gallery.html">Gallery</a>
   <a href="contact.html">Contact</a>
 </nav>
-<div class="section-box">
-<h2>Booking & Contact</h2>
-<p>Email: 1.frankwhiteent@gmail.com</p>
-<p>Phone: (XXX) XXX-XXXX</p>
 
-<div class="social-links">
-  <a href="#">Instagram</a>
-  <a href="#">YouTube</a>
-  <a href="#">TikTok</a>
+<!-- Booking & Contact Info -->
+<div class="section-box">
+  <h2>Booking & Contact</h2>
+  <p>Email: <a href="mailto:frankwhiteent@gmail.com">frankwhiteent@gmail.com</a></p>
+  <p>Phone: (XXX) XXX-XXXX</p>
+  <p>For booking inquiries, event questions, or press, please use the buttons below:</p>
+  <a href="#" class="cta-button">Apply Now</a>
+  <a href="#" class="cta-button">Request a Demo</a>
 </div>
+
+<!-- Social Media Connect -->
+<div class="section-box">
+  <h2>Connect With Frank</h2>
+  <div class="social-media">
+    <a href="https://www.facebook.com" target="_blank">
+      <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.youtube.com" target="_blank">
+      <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a href="https://www.tiktok.com" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok
+    </a>
+    <a href="https://soundcloud.com" target="_blank">
+      <i class="fab fa-soundcloud"></i> SoundCloud
+    </a>
+    <a href="https://open.spotify.com" target="_blank">
+      <i class="fab fa-spotify"></i> Spotify
+    </a>
+  </div>
 </div>
+
+<!-- Terms & Policies -->
+<div class="section-box">
+  <h2>Terms & Conditions</h2>
+  <p>All bookings are subject to confirmation and require a signed performance agreement. Performance fees, travel, and technical requirements are outlined in each contract. By booking Frank White, you agree to these terms.</p>
+  <h2>Privacy Policy</h2>
+  <p>Frank White respects your privacy. All personal information shared through emails, booking forms, or social media channels is securely stored and never shared without your consent.</p>
+</div>
+
+<footer>
+  <p>&copy; 2010 Frank White Ent | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
